@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+    <pattern>what is web development</pattern>
+    <template>Web development is the process of designing, building, and maintaining websites and web applications. This involves creating the user interface, functionality and back-end services that operate a website.</template>
+</category>
+
+<category>
+    <pattern>what skills do I need to become a web developer</pattern>
+    <template>To become a web developer, you need to have a strong understanding of web design principles, front-end development languages like HTML, CSS, and JavaScript, a variety of software toolsl and back-end programming languages such as PHP, Python or Ruby, and a familiarity with popular CMS platforms like WordPress or Joomla.</template>
+</category>
+
+<category>
+    <pattern>what are the common responsibilities of a web developer</pattern>
+    <template>Common responsibilities of a web developer include designing and developing websites and web applications, collaborating with other developers and stakeholders, ensuring website performance and maintenance, and keeping up-to-date with the latest web development trends and technologies.</template>
+</category>
+
+<category>
+        <pattern>CHOOSEwebdeveloper</pattern>
+        <template>
+            You would make a great Web Developer! <split/>
+            Would you like to know more about this career?
+            <reply>
+                <text>Tell Me More!</text>
+                <postback>CHOOSEtellmeMOREwebdeveloper</postback>
+            </reply>
+            <reply>
+                <text>All Career Options</text>
+                <postback>CHOOSEotherjobs</postback>
+            </reply>
+        </template>
+    </category>
+    
+<category>
+        <pattern>CHOOSEtellmeMOREwebdeveloper</pattern>
+        <template>
+            <srai>what is web development</srai>
+            <reply>
+                <text>Skills Needed</text>
+                <postback>CHOOSEskillswebdeveloper</postback>
+            </reply>
+            <reply>
+                <text>Common Responsibilities</text>
+                <postback>CHOOSEresponsibilitieswebdeveloper</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CHOOSEskillswebdeveloper</pattern>
+        <template>
+            <srai>what skills do I need to become a web developer</srai>
+            <reply>
+                <text>Common Responsibilities</text>
+                <postback>CHOOSEresponsibilitieswebdeveloper</postback>
+            </reply>
+            <reply>
+                <text>All Career Options</text>
+                <postback>CHOOSEotherjobs</postback>
+            </reply>
+            <reply>
+                <text>Start Over</text>
+                <postback>CHOOSESTART</postback>
+            </reply>
+        </template>
+    </category>
+    <category>
+        <pattern>CHOOSEresponsibilitieswebdeveloper</pattern>
+        <template>
+            <srai>what are the common responsibilities of a web developer</srai>
+            <reply>
+                <text>Skills Needed</text>
+                <postback>CHOOSEskillswebdeveloper</postback>
+            </reply>
+            <reply>
+                <text>All Career Optionss</text>
+                <postback>CHOOSEotherjobs</postback>
+            </reply>
+            <reply>
+                <text>Start Over</text>
+                <postback>CHOOSESTART</postback>
+            </reply>
+        </template>
+    </category>
+
+
+</aiml>

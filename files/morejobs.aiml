@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern>CHOOSEotherjobs</pattern>
+	    <template>
+	        <carousel>
+	            <card>
+	                <image>https://res.cloudinary.com/dhquo0zpj/image/upload/v1740155324/wgubndhlo2dataanalyst_ucatie.jpg</image>
+	                <title>Data Analyst</title>
+	                <subtitle>collects, processes, and analyzes data to identify trends</subtitle>
+	                <button>
+	                    <text>Skills Needed</text>
+	                    <postback>CHOOSEskillsdataanalyst</postback>
+                    </button>
+                    <button>
+                        <text>Common Responsibilities</text>
+                        <postback>CHOOSEresponsibilitiesdataanalyst</postback>
+                    </button>
+                </card>
+                <card>
+                    <image>
+                       https://res.cloudinary.com/dhquo0zpj/image/upload/v1740154873/wgubndhlo2webdev_erp7np.jpg
+                    </image>
+                    <title>Web Developer</title>
+                    <subtitle>designing, building, and maintaining websites</subtitle>
+                    <button>
+                        <text>Skills Needed</text>
+                        <postback>CHOOSEskillswebdeveloper</postback>
+                    </button>
+                    <button>
+                        <text>Common Responsibilities</text>
+                        <postback>CHOOSEresponsibilitieswebdeveloper</postback>
+                    </button>
+                </card>
+                <card>
+                    <image>
+                        https://res.cloudinary.com/dhquo0zpj/image/upload/v1740155087/wgubndhlo2computerprogrmr_xgwx1o.jpg
+                    </image>
+                    <title>Computer Programmer</title>
+                    <subtitle>designing, writing, and testing code</subtitle>
+                    <button>
+                        <text>Skills Needed</text>
+                        <postback>CHOOSEskillscomputerprogrammer</postback>
+                    </button>
+                    <button>
+                        <text>Common Responsibilities</text>
+                        <postback>CHOOSEresponsibilitiescomputerprogrammer</postback>
+                    </button>
+                </card>
+                <card>
+                    <image>
+                        https://res.cloudinary.com/dhquo0zpj/image/upload/v1740155554/wgubndhlo2systemsmngr_sxc0mr.jpg
+                    </image>
+                    <title>Systems Management</title>
+                    <subtitle>planning, configuring, and maintaining systems and networks</subtitle>
+                    <button>
+                        <text>Skills Needed</text>
+                        <postback>CHOOSEskillssystemsmanagement</postback>
+                    </button>
+                    <button>
+                        <text>Common Responsibilities</text>
+                        <postback>CHOOSEresponsibilitiessystemsmanagement</postback>
+                    </button>
+                </card>
+                <card>
+                    <image>
+                       https://res.cloudinary.com/dhquo0zpj/image/upload/v1740156049/wgubndhlo2gamedesign_qjkl6i.jpg
+                    </image>
+                    <title>Video Game Desiger</title>
+                    <subtitle>conceptualizing and creating video games</subtitle>
+                    <button>
+                        <text>Skills Needed</text>
+                        <postback>CHOOSEskillsvideogames</postback>
+                    </button>
+                    <button>
+                        <text>Common Responsibilities</text>
+                        <postback>CHOOSEresponsibilitiesvideogames</postback>
+                    </button>
+                </card>
+            </carousel>
+	    </template>
+    </category>
+    
+</aiml>

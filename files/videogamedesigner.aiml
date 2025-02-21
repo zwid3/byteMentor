@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+<category>
+    <pattern>what is video game designing</pattern>
+    <template>Video game design is the process of conceptualizing and creating video games. This involves designing the gameplay, characters, levels, and other core components of a game.</template>
+</category>
+
+<category>
+    <pattern>what skills do I need to become a video game designer</pattern>
+    <template>To become a video game designer, you need to have a strong background in computer science, programming, game engines, 2D/3D design software, art, writing, problem solving, and teamwork.</template>
+</category>
+
+<category>
+    <pattern>what are the common responsibilities of a video game designer</pattern>
+    <template>Common responsibilities of a video game designer include creating game concepts and storylines, designing levels, creating game mechanics and gameplay, prototyping and testing games, and collaborating with other developers and artists.</template>
+</category>
+
+<category>
+        <pattern>CHOOSEvideogames</pattern>
+        <template>
+            You would make a great Video Game Designer! <split/>
+            Would you like to know more about this career?
+            <reply>
+                <text>Tell Me More!</text>
+                <postback>CHOOSEtellmeMOREvideogames</postback>
+            </reply>
+            <reply>
+                <text>All Career Options</text>
+                <postback>CHOOSEotherjobs</postback>
+            </reply>
+        </template>
+    </category>
+    
+<category>
+        <pattern>CHOOSEtellmeMOREvideogames</pattern>
+        <template>
+            <srai>what is video game designing</srai>
+            <reply>
+                <text>Skills Needed</text>
+                <postback>CHOOSEskillsvideogames</postback>
+            </reply>
+            <reply>
+                <text>Common Responsibilities</text>
+                <postback>CHOOSEresponsibilitiesvideogames</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CHOOSEskillsvideogames</pattern>
+        <template>
+            <srai>what skills do I need to become a video game designer</srai>
+            <reply>
+                <text>Common Responsibilities</text>
+                <postback>CHOOSEresponsibilitiesvideogames</postback>
+            </reply>
+            <reply>
+                <text>All Career Options</text>
+                <postback>CHOOSEotherjobs</postback>
+            </reply>
+            <reply>
+                <text>Start Over</text>
+                <postback>CHOOSESTART</postback>
+            </reply>
+        </template>
+    </category>
+    <category>
+        <pattern>CHOOSEresponsibilitiesvideogames</pattern>
+        <template>
+            <srai>what are the common responsibilities of a video game designer</srai>
+            <reply>
+                <text>Skills Needed</text>
+                <postback>CHOOSEskillsvideogames</postback>
+            </reply>
+            <reply>
+                <text>All Career Optionss</text>
+                <postback>CHOOSEotherjobs</postback>
+            </reply>
+            <reply>
+                <text>Start Over</text>
+                <postback>CHOOSESTART</postback>
+            </reply>
+        </template>
+    </category>
+    
+</aiml>

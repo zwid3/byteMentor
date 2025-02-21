@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!-- insert your AIML categories here -->
+
+<category>
+	<pattern>ANSWERYES</pattern>
+	<template>Ok great, Lets begin! </template>
+</category>
+
+
+<category>
+	<pattern>I enjoy managing IT systems and ensuring smooth operations </pattern>
+	<template>Excellent choice! Given your interests, a role like Systems Manager would be a great fit for you. A Systems Manager oversees IT infrastructure, ensures network security, and manages a team to keep systems running efficiently. To get started, develop skills in IT management, cloud computing, cybersecurity, and system administration using tools like AWS, Windows Server, and Linux.</template>
+</category>
+
+<category>
+	<pattern>HELLO BYTE</pattern>
+	<template>Hello and welcome to your virtual career guidance session! I’m byteMentor, your virtual career guide. Here are some computing career paths to explore—which one interests you the most?    **Options:**   - Programming   - Game Design   - Web Development   - Data Analysis   - Systems Management Let’s get started!</template>
+</category>
+
+<category>
+	<pattern>I love writing code and developing applications</pattern>
+	<template> Fantastic choice! Based on your interests, a career as a Programmer could be an excellent match for you. A Computer Programmer writes, tests, and maintains software applications. To begin, learn programming languages such as Python, Java, or C++, and familiarize yourself with debugging, algorithms, and version control tools like Git. </template>
+</category>
+
+<category>
+	<pattern>I AM PASSIONATE ABOUT DESIGNING AND BUILDING WEBSITES</pattern>
+	<template>Outstanding choice! Considering what excites you, becoming a Web Developer could align perfectly with your goals. A Web Developer creates and maintains websites using front-end and back-end technologies. To get started, master HTML, CSS, JavaScript, and frameworks like React or Angular. Knowledge of databases (SQL, MongoDB) and server-side languages (Node.js, PHP) is also beneficial.</template>
+</category>
+
+
+
+<category>
+	<pattern>I LIKE ANALYZING DATA AND FINDING MEANINGFUL PATTERNS</pattern>
+	<template>Brilliant decision! Reflecting on your interests, working as a Data Analyst seems like a natural fit for your skills. A Data Analyst interprets data to help organizations make informed decisions. Key skills include SQL, Python (Pandas, NumPy), Excel, and data visualization tools like Tableau or Power BI. Understanding statistical concepts and machine learning basics can also be useful.</template>
+</category>
+
+</aiml>

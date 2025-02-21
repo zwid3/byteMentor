@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+    <pattern>what is computer programming</pattern>
+    <template>Computer programming is the process of designing, writing, and testing code that tells computers what to do. This code can range from simple scripts to complex software applications and systems.</template>
+</category>
+
+<category>
+    <pattern>what skills do I need to become a computer programmer</pattern>
+    <template>To become a computer programmer, you need to have a strong understanding of computer programming languages like Java, Python, C++, and JavaScript, problem-solving skills, strong attention to detail, and the ability to work both independently and as part of a team.</template>
+</category>
+
+<category>
+    <pattern>what are the common responsibilities of a computer programmer</pattern>
+    <template>Common responsibilities of a computer programmer include writing and testing code, debugging issues, collaborating with other developers and stakeholders, and updating code and software as needed.</template>
+</category>
+
+<category>
+        <pattern>CHOOSEcomputerprogrammer</pattern>
+        <template>
+            You would make a great Computer Programmer! <split/>
+            Would you like to know more about this career?
+            <reply>
+                <text>Tell Me More!</text>
+                <postback>CHOOSEtellmeMOREcomputerprogrammer</postback>
+            </reply>
+            <reply>
+                <text>All Career Options</text>
+                <postback>CHOOSEotherjobs</postback>
+            </reply>
+        </template>
+    </category>
+    
+<category>
+        <pattern>CHOOSEtellmeMOREcomputerprogrammer</pattern>
+        <template>
+            <srai>what is computer programming</srai>
+            <reply>
+                <text>Skills Needed</text>
+                <postback>CHOOSEskillscomputerprogrammer</postback>
+            </reply>
+            <reply>
+                <text>Common Responsibilities</text>
+                <postback>CHOOSEresponsibilitiescomputerprogrammer</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CHOOSEskillscomputerprogrammer</pattern>
+        <template>
+            <srai>what skills do I need to become a computer programmer</srai>
+            <reply>
+                <text>Common Responsibilities</text>
+                <postback>CHOOSEresponsibilitiescomputerprogrammer</postback>
+            </reply>
+            <reply>
+                <text>All Career Options</text>
+                <postback>CHOOSEotherjobs</postback>
+            </reply>
+            <reply>
+                <text>Start Over</text>
+                <postback>CHOOSESTART</postback>
+            </reply>
+        </template>
+    </category>
+    <category>
+        <pattern>CHOOSEresponsibilitiescomputerprogrammer</pattern>
+        <template>
+            <srai>what are the common responsibilities of a computer programmer</srai>
+            <reply>
+                <text>Skills Needed</text>
+                <postback>CHOOSEskillscomputerprogrammer</postback>
+            </reply>
+            <reply>
+                <text>All Career Optionss</text>
+                <postback>CHOOSEotherjobs</postback>
+            </reply>
+            <reply>
+                <text>Start Over</text>
+                <postback>CHOOSESTART</postback>
+            </reply>
+        </template>
+    </category>
+</aiml>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+    <pattern>what is systems management</pattern>
+    <template>Systems management involves planning, configuring, and maintaining computer systems and networks to ensure that they are operating effectively and securely. It requires managing the network architecture, hardware, software, security and backup systems to optimize the performance of computer systems.</template>
+</category>
+
+<category>
+    <pattern>what skills do I need to become a systems manager</pattern>
+    <template>To become a systems manager, you need to have a strong understanding of computer systems and networks, experience with network and system administration, strong communication skills, and experience with project management methodologies.</template>
+</category>
+
+<category>
+    <pattern>what are the common responsibilities of a systems manager</pattern>
+    <template>Common responsibilities of a systems manager include overseeing and managing network and system administration, ensuring that software and hardware are up to date, managing security protocols, and communicating with stakeholders, staff and 3rd party service providers.</template>
+</category>
+
+<category>
+        <pattern>CHOOSEsystemsmanagement</pattern>
+        <template>
+            You would make a great Systems Manager! <split/>
+            Would you like to know more about this career?
+            <reply>
+                <text>Tell Me More!</text>
+                <postback>CHOOSEtellmeMOREsystemsmanagement</postback>
+            </reply>
+            <reply>
+                <text>All Career Options</text>
+                <postback>CHOOSEotherjobs</postback>
+            </reply>
+        </template>
+    </category>
+    
+<category>
+        <pattern>CHOOSEtellmeMOREsystemsmanagement</pattern>
+        <template>
+            <srai>what is systems management</srai>
+            <reply>
+                <text>Skills Needed</text>
+                <postback>CHOOSEskillssystemsmanagement</postback>
+            </reply>
+            <reply>
+                <text>Common Responsibilities</text>
+                <postback>CHOOSEresponsibilitiessystemsmanagement</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CHOOSEskillssystemsmanagement</pattern>
+        <template>
+            <srai>what skills do I need to become a systems manager</srai>
+            <reply>
+                <text>Common Responsibilities</text>
+                <postback>CHOOSEresponsibilitiessystemsmanagement</postback>
+            </reply>
+            <reply>
+                <text>All Career Options</text>
+                <postback>CHOOSEotherjobs</postback>
+            </reply>
+            <reply>
+                <text>Start Over</text>
+                <postback>CHOOSESTART</postback>
+            </reply>
+        </template>
+    </category>
+    <category>
+        <pattern>CHOOSEresponsibilitiessystemsmanagement</pattern>
+        <template>
+            <srai>what are the common responsibilities of a systems manager</srai>
+            <reply>
+                <text>Skills Needed</text>
+                <postback>CHOOSEskillssystemsmanagement</postback>
+            </reply>
+            <reply>
+                <text>All Career Optionss</text>
+                <postback>CHOOSEotherjobs</postback>
+            </reply>
+            <reply>
+                <text>Start Over</text>
+                <postback>CHOOSESTART</postback>
+            </reply>
+        </template>
+    </category>
+
+</aiml>

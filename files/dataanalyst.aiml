@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+    <pattern>what is a data analyst</pattern>
+    <template>A data analyst is a professional who collects, processes, and analyzes data to identify trends and make informed business decisions.</template>
+</category>
+
+<category>
+    <pattern>what skills do I need to become a data analyst</pattern>
+    <template>To become a data analyst, you need to have a good understanding of data analysis tools and techniques, as well as experience with statistical software like R or SAS, and experience with data visualization tools like Tableau or Power BI.</template>
+</category>
+
+<category>
+    <pattern>what are some common responsibilities of a data analyst</pattern>
+    <template>Common responsibilities of a data analyst include collecting and analyzing data, identifying patterns and trends, communicating insights to stakeholders, and developing and maintaining databases.</template>
+</category>
+<category>
+        <pattern>CHOOSEdataanalyst</pattern>
+        <template>
+            Sounds like you would make a great Data Analyst! <split/> 
+            Would you like to know more about this career?
+            <reply>
+                <text>Tell Me More!</text>
+                <postback>CHOOSEtellmeMOREdataanalyst</postback>
+            </reply>
+            <reply>
+                <text>All Career Options</text>
+                <postback>CHOOSEotherjobs</postback>
+            </reply>
+        </template>
+    </category>
+    <category>
+        <pattern>CHOOSEtellmeMOREdataanalyst</pattern>
+        <template>
+            <srai>what is a data analyst</srai>
+            <reply>
+                <text>Skills Needed</text>
+                <postback>CHOOSEskillsdataanalyst</postback>
+            </reply>
+            <reply>
+                <text>Common Responsibilities</text>
+                <postback>CHOOSEresponsibilitiesdataanalyst</postback>
+            </reply>
+        </template>
+    </category>
+    <category>
+        <pattern>CHOOSEskillsdataanalyst</pattern>
+        <template>
+            <srai>what skills do I need to become a data analyst</srai>
+            <reply>
+                <text>Common Responsibilities</text>
+                <postback>CHOOSEresponsibilitiesdataanalyst</postback>
+            </reply>
+            <reply>
+                <text>All Career Options</text>
+                <postback>CHOOSEotherjobs</postback>
+            </reply>
+            <reply>
+                <text>Start Over</text>
+                <postback>CHOOSESTART</postback>
+            </reply>
+        </template>
+    </category>
+    <category>
+        <pattern>CHOOSEresponsibilitiesdataanalyst</pattern>
+        <template>
+            <srai>what are some common responsibilities of a data analyst</srai>
+            <reply>
+                <text>Skills Needed</text>
+                <postback>CHOOSEskillsdataanalyst</postback>
+            </reply>
+            <reply>
+                <text>All Career Optionss</text>
+                <postback>CHOOSEotherjobs</postback>
+            </reply>
+            <reply>
+                <text>Start Over</text>
+                <postback>CHOOSESTART</postback>
+            </reply>
+        </template>
+    </category>
+
+</aiml>

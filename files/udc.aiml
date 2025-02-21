@@ -1,7 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
-  <category>
-    <pattern>*</pattern>
-    <template>I have no answer for that.</template>
-  </category>
+<aiml version="2.0">
+    <category>
+     <pattern>*</pattern>
+     <template>I have no answer for that. </template>
+    </category> 
+    <category>
+    <pattern> HELLO</pattern>
+    <template>
+        <srai> HI</srai>
+    </template>
+    </category>
+ <category>
+    <pattern> Greetings</pattern>
+    <template>
+        <srai> HI</srai>
+    </template>
+    </category>
+     <category>
+    <pattern> HOWDY</pattern>
+    <template>
+        <srai> HI</srai>
+    </template>
+    </category>
+    <category>
+     <pattern>HI</pattern>
+     <template>
+         <image>
+             https://www.silkyszeto.com/clients/img-wgu/wgu-logo-design-silky-szeto.svg
+         </image>
+         Hello, my name is byteMentor. I’m here to help you navigate your career choices. Consider me your virtual career guide. <delay>2</delay>
+     What is your first name? Answer with "My name is __ "
+     </template>
+    </category>
+    <category>
+     <pattern> MY NAME IS *</pattern>
+     <template>Hello <set name="firstname"><star/></set> I will help you choose a computer science career path. 
+     <reply>
+         <text>Let's get started!</text>
+         <postback>CHOOSESTART</postback>
+     </reply>
+     </template>
+   </category>
+   <category>
+       <pattern>CHOOSESTART</pattern>
+       <template>Do you work well independently or on teams?
+       <reply>
+           <text>Independently</text>
+           <postback>CHOOSEindependently</postback>
+       </reply>
+       <reply>
+           <text>Teams</text>
+           <postback>CHOOSEonteams</postback>
+       </reply>
+       </template>
+    </category>
+    <category>
+       <pattern> CHOOSEindependently</pattern>
+       <template>Would you rather...<delay>2</delay><split/> 
+       A: Find patterns and trends by analyzing data to answer questions <split/> 
+       B: Use your computer language skills to code for projects?
+       <reply>
+           <text>A: Trends and Data </text>
+           <postback>CHOOSEdataanalyst</postback>
+       </reply>
+       <reply>
+           <text>B: Computer Language Skills</text>
+           <postback>CHOOSEBlanguage</postback>
+       </reply>
+       </template>
+    </category>
+    <category>
+        <pattern>CHOOSEBlanguage</pattern>
+        <template>Working with Computer Laugages can be a rewarding career. <split/>
+        Would you rather..<delay>2</delay> <split/>
+        A: Use your artistic skills to design and build websites and applcations?<split/>
+        B: Design, write, and debug code to tell computers what to do?
+        <reply>
+            <text>A: I'm artistic!</text>
+            <postback>CHOOSEwebdeveloper</postback>
+        </reply>
+        <reply>
+            <text>B: I like debugging! </text>
+            <postback>CHOOSEcomputerprogrammer</postback>
+        </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CHOOSEonteams</pattern>
+        <template>
+            Would you rather...<delay>2</delay> <split/>
+            A: Manage computer systems and networks for an organization? <split/>
+            B: Conceptualize and create worlds, stories, and characters?
+            <reply>
+                <text>A: Manage!</text>
+                <postback>CHOOSEsystemsmanagement</postback>
+            </reply>
+            <reply>
+                <text>B: Create! </text>
+                <postback>CHOOSEskillsvideogames</postback>
+            </reply>
+        </template>
+    </category>
+
 </aiml>
