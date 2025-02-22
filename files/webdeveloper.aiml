@@ -73,7 +73,7 @@
                 <postback>CHOOSEskillswebdeveloper</postback>
             </reply>
             <reply>
-                <text>All Career Optionss</text>
+                <text>All Career Options</text>
                 <postback>CHOOSEotherjobs</postback>
             </reply>
             <reply>

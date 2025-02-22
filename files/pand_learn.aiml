@@ -35,4 +35,9 @@
 	<template>Brilliant decision! Reflecting on your interests, working as a Data Analyst seems like a natural fit for your skills. A Data Analyst interprets data to help organizations make informed decisions. Key skills include SQL, Python (Pandas, NumPy), Excel, and data visualization tools like Tableau or Power BI. Understanding statistical concepts and machine learning basics can also be useful.</template>
 </category>
 
+<category>
+	<pattern>I ENJOY CREATING INTERACTIVE AND ENGAGING GAME EXPERIENCES</pattern>
+	<template>Perfect selection! With your passions in mind, pursuing a role as a Game Designer might be the perfect path for you. A Game Designer develops game concepts, mechanics, and user experiences. To start, learn game development engines like Unity or Unreal Engine, scripting languages like C# or Python, and principles of storytelling and user engagement in games.</template>
+</category>
+
 </aiml>
