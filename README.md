@@ -4,7 +4,7 @@ As a career advisor at Western Governors University, I developed a conversationa
 
 ## Steps to access the chatbot on Pandorabot
 
-1. Visit the pandorabots sign in page link: [click here]
+1. Visit the pandorabots sign in page link: [Access the Chatbot](https://www.pandorabots.com/)
 2. Click "Sign In" if you have an account, or "Create Account" to register.
 3. After signing in, select "DIRECTORY" from the menu on the left side.
 4. Search for "byteMentor," click on it, and a orange chat icon will appear at the bottom right corner of the screen.
