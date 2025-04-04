@@ -13,4 +13,4 @@ As a career advisor at Western Governors University, I developed a conversationa
 
 
 ## Watch my youtube video here: 
-[![Demo Video](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[![Demo Video](https://img.youtube.com/vi/BrmOWcjya3U/0.jpg)](https://www.youtube.com/watch?v=BrmOWcjya3U)
