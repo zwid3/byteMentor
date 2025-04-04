@@ -12,4 +12,7 @@ As a career advisor at Western Governors University, I developed a conversationa
 6. Receive job recommendations.
 
 
-## Watch my youtube video here: https://youtu.be/BrmOWcjya3U
+## Watch my youtube video here: 
+https://youtu.be/BrmOWcjya3U
+
+[![Watch the video](https://img.youtube.com/vi/BrmOWcjya3U&t=1s/0.jpg)](https://www.youtube.com/watch?v=BrmOWcjya3U&t=1s)
